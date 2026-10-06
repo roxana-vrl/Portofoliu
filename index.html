@@ -740,59 +740,32 @@ My experience includes HTML, CSS, JavaScript, WordPress, responsive design, UI/U
 
                 </div>
 
+<form action="https://formsubmit.co/emailul.tau@gmail.com" method="POST">
+    
+    <!-- Câmp opțional: previne captcha-ul enervant -->
+    <input type="hidden" name="_captcha" value="false">
+    
+    <!-- Câmp opțional: unde vrei să fii redirecționată după ce utilizatorul apasă trimite (poate fi o pagină de mulțumire sau la fel) -->
+    <input type="hidden" name="_next" value="https://roxana-vrl.github.io/Portofoliu/">
 
-                <form class="contact-form" id="contactForm">
+    <div class="form-group">
+        <label for="nume">Numele tău</label>
+        <input type="text" id="nume" name="nume" required>
+    </div>
 
-                    <div class="form-group">
+    <div class="form-group">
+        <label for="email">Emailul tău</label>
+        <input type="email" id="email" name="email" required>
+    </div>
 
-                        <label for="name">
-                            Name
-                        </label>
+    <div class="form-group">
+        <label for="mesaj">Mesaj</label>
+        <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+    </div>
 
-                        <input type="text"
-                            id="name"
-                            placeholder="Your name">
+    <button type="submit" class="btn primary">Trimite Mesaj</button>
+</form>
 
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="email">
-                            Email
-                        </label>
-
-                        <input type="email"
-                            id="email"
-                            placeholder="Your email">
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="message">
-                            Message
-                        </label>
-
-                        <textarea id="message"
-                            rows="6"
-                            placeholder="Your message"></textarea>
-
-                    </div>
-
-
-                    <button type="submit"
-                        class="btn primary-button">
-
-                        Send Message
-
-                    </button>
-
-
-                    <p id="formMessage"></p>
-
-                </form>
 
             </div>
 
